@@ -18,8 +18,9 @@ The interactive demo lets visitors add roles, change status, search and filter a
 
 ## Publish
 
-The GitHub Actions workflow validates the required static assets, uploads this directory as a Pages artifact, and deploys it when changes reach `main`. GitHub Pages must have Actions selected as the repository's publishing source.
+GitHub Pages publishes the repository root from `main`. Push updates to `main` to trigger a Pages build.
 
 ## Profile details
 
 Professional details and the linked contribution status reflect the public `faizzyhon` GitHub profile and linked repositories. Contributions marked **In review** have not been presented as accepted work.
+
